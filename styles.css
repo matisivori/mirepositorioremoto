@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #E0F5FF;
+  background-color: #f4f4f4;
   color: #333333;
 }
 
@@ -28,7 +28,7 @@ a {
 
 /* Estilos de la navegación */
 header {
-  background-color: #FFFFFF;
+  background-color: #00ff00;
   padding: 20px;
 }
 
@@ -62,17 +62,17 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #E0F5FF;
+  background-color: #f4f4f4;
 }
 
 nav ul li a.active {
   background-color: #333333;
-  color: #E0F5FF;
+  color: #ffffff;
 }
 
 /* Estilos del hero */
 #hero {
-  background-color: #38A1DB;
+  background-color: #00ffcc;
   padding: 80px 20px;
   text-align: center;
 }
@@ -84,7 +84,7 @@ nav ul li a.active {
 
 .hero-content h2,
 .hero-content p {
-  color: #E0F5FF;
+  color: #ffffff;
 }
 
 .hero-content h2 {
@@ -101,7 +101,7 @@ nav ul li a.active {
   display: inline-block;
   padding: 10px 20px;
   background-color: #333333;
-  color: #E0F5FF;
+  color: #ffffff;
   font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
@@ -114,7 +114,7 @@ nav ul li a.active {
 
 /* Estilos de la sección Acerca de */
 #about {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 80px 20px;
   text-align: center;
 }
@@ -141,7 +141,7 @@ nav ul li a.active {
 
 /* Estilos de la sección Nuestros Peludos */
 #pets {
-  background-color: #F4F4F4;
+  background-color: #ccffcc;
   padding: 80px 20px;
   text-align: center;
 }
@@ -156,7 +156,7 @@ nav ul li a.active {
   flex: 0 0 300px;
   margin: 20px;
   padding: 20px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -184,7 +184,7 @@ nav ul li a.active {
 
 /* Estilos de la sección Testimonios */
 #testimonials {
-  background-color: #F4F4F4;
+  background-color: #ccffcc;
   padding: 80px 20px;
   text-align: center;
 }
@@ -198,7 +198,7 @@ nav ul li a.active {
   flex: 0 0 400px;
   margin: 20px;
   padding: 20px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -217,7 +217,7 @@ nav ul li a.active {
 
 /* Estilos de la sección Contacto */
 #contact {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 80px 20px;
   text-align: center;
 }
@@ -251,7 +251,7 @@ nav ul li a.active {
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   border-radius: 4px;
   margin-bottom: 20px;
 }
@@ -263,7 +263,7 @@ nav ul li a.active {
 .contact-content form button {
   padding: 10px 20px;
   background-color: #333333;
-  color: #E0F5FF;
+  color: #ffffff;
   font-size: 18px;
   text-transform: uppercase;
   border: none;
@@ -284,6 +284,6 @@ footer {
 }
 
 footer p {
-  color: #E0F5FF;
+  color: #ffffff;
   font-size: 14px;
 }
