@@ -1,0 +1,289 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E0F5FF;
+  color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+ul,
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Estilos de la navegación */
+header {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+nav ul {
+  display: flex;
+  margin-left: 20px;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #333333;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #E0F5FF;
+}
+
+nav ul li a.active {
+  background-color: #333333;
+  color: #E0F5FF;
+}
+
+/* Estilos del hero */
+#hero {
+  background-color: #38A1DB;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-content h2,
+.hero-content p {
+  color: #E0F5FF;
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333333;
+  color: #E0F5FF;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #666666;
+}
+
+/* Estilos de la sección Acerca de */
+#about {
+  background-color: #FFFFFF;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content h3,
+.about-content p {
+  color: #333333;
+}
+
+.about-content h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Estilos de la sección Nuestros Peludos */
+#pets {
+  background-color: #F4F4F4;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.pets-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pet-card {
+  flex: 0 0 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pet-card img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.pet-card h4,
+.pet-card p {
+  color: #333333;
+}
+
+.pet-card h4 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.pet-card p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Estilos de la sección Testimonios */
+#testimonials {
+  background-color: #F4F4F4;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.testimonials-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial {
+  flex: 0 0 400px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial blockquote {
+  font-size: 18px;
+  color: #666666;
+}
+
+/* Estilos de la sección Contacto */
+#contact {
+  background-color: #FFFFFF;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-content h3,
+.contact-content p {
+  color: #333333;
+}
+
+.contact-content h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.contact-content form {
+  text-align: left;
+}
+
+.contact-content form input,
+.contact-content form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.contact-content form textarea {
+  height: 120px;
+}
+
+.contact-content form button {
+  padding: 10px 20px;
+  background-color: #333333;
+  color: #E0F5FF;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-content form button:hover {
+  background-color: #666666;
+}
+
+/* Estilos del footer */
+footer {
+  background-color: #333333;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  color: #E0F5FF;
+  font-size: 14px;
+}

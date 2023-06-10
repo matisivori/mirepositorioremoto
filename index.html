@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adopta un Mayor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Adopta un Mayor!</h1>
+      <ul>
+        <li><a href="#about">Acerca de</a></li>
+        <li><a href="#pets">Nuestros Peludos</a></li>
+        <li><a href="#testimonials">Testimonios</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h2>¡Adopta un compañero fiel!</h2>
+      <p>
+        Descubre el amor y la gratitud que una mascota mayor puede ofrecerte.
+        Cambia su vida y la tuya adoptando hoy.
+      </p>
+      <a href="#contact" class="cta-button">Adopta ahora</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-content">
+      <h3>Acerca de nosotros</h3>
+      <p>
+        En Adopta una Mascota Mayor, nos enfocamos en encontrar hogares
+        amorosos para mascotas mayores que merecen una segunda oportunidad.
+        Nuestro objetivo es promover la adopción de mascotas mayores y crear
+        conciencia sobre los beneficios de tener un compañero de edad
+        avanzada.
+      </p>
+      <p>
+        Todas nuestras mascotas han pasado por un proceso de evaluación
+        veterinaria y se encuentran en buen estado de salud. También
+        proporcionamos información detallada sobre la personalidad y las
+        necesidades de cada mascota para asegurarnos de encontrar el ajuste
+        perfecto para ti y para ellos.
+      </p>
+    </div>
+  </section>
+
+  <section id="pets">
+    <div class="pets-grid">
+      <div class="pet-card">
+        <img src="img/dog1.jpg" alt="Perro Mayor 1" />
+        <h4>Rocky</h4>
+        <p>Edad: 8 años</p>
+        <p>Raza: Labrador Retriever</p>
+        <a href="#contact" class="cta-button">Más información</a>
+      </div>
+      <div class="pet-card">
+        <img src="img/cat1.jpg" alt="Gato Mayor 1" />
+        <h4>Luna</h4>
+        <p>Edad: 10 años</p>
+        <p>Raza: Gato Doméstico</p>
+        <a href="#contact" class="cta-button">Más información</a>
+      </div>
+      <div class="pet-card">
+        <img src="img/dog2.jpg" alt="Perro Mayor 2" />
+        <h4>Bruno</h4>
+        <p>Edad: 9 años</p>
+        <p>Raza: Bulldog Inglés</p>
+        <a href="#contact" class="cta-button">Más información</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="testimonials-grid">
+      <div class="testimonial">
+        <img src="img/test1.jpg" alt="Testimonio 1" />
+        <blockquote>
+          Adoptar a mi perro mayor ha sido la mejor decisión que he tomado. Es
+          un compañero fiel y lleno de amor. No puedo imaginar mi vida sin él.
+          - María
+        </blockquote>
+      </div>
+      <div class="testimonial">
+        <img src="img/test2.jpg" alt="Testimonio 2" />
+        <blockquote>
+          Adopté a mi gato mayor hace un año y ha sido una experiencia
+          increíble. Es tranquilo, cariñoso y se lleva bien con todos en casa.
+          Lo recomiendo completamente. - Alejandro
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-content">
+      <h3>Contáctanos</h3>
+      <p>
+        Si estás interesado en adoptar una mascota mayor o tienes alguna
+        pregunta, no dudes en contactarnos. Estamos aquí para ayudarte a
+        encontrar el compañero perfecto.
+      </p>
+      <form onsubmit="validateForm(event)">
+        <input id="nameInput" type="text" placeholder="Nombre" required />
+        <input id="emailInput" type="email" placeholder="Correo electrónico" required />
+        <textarea id="messageInput" placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      &copy; 2023 Adopta una Mascota Mayor. Todos los derechos reservados.
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
